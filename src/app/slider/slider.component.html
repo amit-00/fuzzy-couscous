@@ -1,0 +1,10 @@
+<div class="slider-wrapper">
+    <button (click)="previousCity()" class="btn">Back</button>
+
+    <div class="city-info">
+        <img src='../../assets/imgs/{{city.city}}.jpg' alt="">
+        <p>{{ city.city }}, {{ city.country }}</p>
+    </div>
+
+    <button (click)="nextCity()" class="btn">Next</button>
+</div>

@@ -1,0 +1,15 @@
+.slider-wrapper{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+
+img{
+    border-radius: 5px;
+    width: 600px;
+    margin: auto 2rem;
+}
+
+p{
+    font-size: 2rem;
+}
